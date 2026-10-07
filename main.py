@@ -1,2 +1,4 @@
 def func1(a):
-    return bin(a)[2:]
+    sign = '1' if a < 0 else '0'
+    
+    return sign + bin(abs(a))[2:]
