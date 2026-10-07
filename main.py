@@ -1,2 +1,2 @@
-def func(b):
-    return bin(b)[2:]
+def func1(a):
+    return bin(a)[2:]
